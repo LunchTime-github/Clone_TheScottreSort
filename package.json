@@ -1,0 +1,37 @@
+{
+  "name": "thescottresort-clone",
+  "version": "1.0.0",
+  "description": "clone site thescottresort",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "repository": "git+https://github.com/LunchTime-github/Clone_TheScottreSort.git",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "gulp": "^4.0.2",
+    "gulp-html": "^1.0.0",
+    "gulp-html-tag-include": "^1.0.1"
+  },
+  "author": "LunchTime-github <hiyoon9@gmail.com>",
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "delete": "^1.1.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bro": "^1.0.3",
+    "gulp-csso": "^3.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-gh-pages-with-updated-gift": "^0.5.4",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^5.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^4.12.0",
+    "uglifyify": "^5.0.2"
+  }
+}
