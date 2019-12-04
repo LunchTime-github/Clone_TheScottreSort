@@ -1,1 +1,24 @@
-$red: #ff8b8b;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&display=swap');
+@import url('https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css');
+
+@mixin transform_vertical_center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin transform_horizontal_center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin transform_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+$main_color: #455d58;
+$hover_color: #ffb7ae;

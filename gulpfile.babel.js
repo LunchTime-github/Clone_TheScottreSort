@@ -71,7 +71,7 @@ const style = () =>
     .pipe(sass().on("error", sass.logError))
     .pipe(
       autop({
-        overrideBrowserslist: ["last 2 versions"]
+        overrideBrowserslist: ["last 2 versions", "Firefox > 20"]
       })
     )
     .pipe(
